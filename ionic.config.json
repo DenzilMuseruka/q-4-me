@@ -1,0 +1,7 @@
+{
+  "name": "Q4Me",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
