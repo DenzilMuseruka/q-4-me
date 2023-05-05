@@ -7,7 +7,12 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
   standalone: true,
-  imports: [IonicModule, RouterLink, RouterLinkActive, CommonModule],
+  imports: [
+    IonicModule,
+    RouterLink,
+    RouterLinkActive,
+    CommonModule
+  ],
 })
 export class AppComponent {
   public appPages = [
